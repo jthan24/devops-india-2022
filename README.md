@@ -1,4 +1,4 @@
-# devsecops-la
+# conf42
 
 In this repo you can use vault, external-secrets and kubernetes for deploy and consume secrets from vault into your app
 
@@ -24,5 +24,10 @@ kubectl apply -f 1.secretVault.yaml
 ## Config ExternalSecret for vault
 ```bash
 kubectl apply -f 2.usingsecret.yaml
+```
+
+## Obtain ExternalSecret from Secret
+```bash
+kubectl apply -f 3.podusingsecret.yaml
 ```
 
