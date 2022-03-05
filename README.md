@@ -1,4 +1,4 @@
-# conf42
+# devops-india-2022
 
 In this repo you can use vault, external-secrets and kubernetes for deploy and consume secrets from vault into your app
 
